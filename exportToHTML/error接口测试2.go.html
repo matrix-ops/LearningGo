@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>error接口测试2.go</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #a9b7c6;}
+.s3 { color: #6a8759;}
+.s4 { color: #6897bb;}
+.s5 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+error接口测试2.go</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s2">main</span>
+
+<span class="s0">import </span><span class="s1">(</span>
+	<span class="s3">&quot;errors&quot;</span>
+	<span class="s3">&quot;fmt&quot;</span>
+	<span class="s3">&quot;strings&quot;</span>
+<span class="s1">)</span>
+
+<span class="s0">var </span><span class="s1">(</span>
+	<span class="s2">ErrBounds </span><span class="s1">= </span><span class="s2">errors</span><span class="s1">.</span><span class="s2">New</span><span class="s1">(</span><span class="s3">&quot;out of bounds&quot;</span><span class="s1">)</span>
+	<span class="s2">ErrDigit  </span><span class="s1">= </span><span class="s2">errors</span><span class="s1">.</span><span class="s2">New</span><span class="s1">(</span><span class="s3">&quot;invalid digit&quot;</span><span class="s1">)</span>
+<span class="s1">)</span>
+
+<span class="s0">const </span><span class="s2">rows</span><span class="s0">, </span><span class="s2">columns </span><span class="s1">= </span><span class="s4">9</span><span class="s0">, </span><span class="s4">9</span>
+
+<span class="s0">type </span><span class="s2">Grid </span><span class="s1">[</span><span class="s2">rows</span><span class="s1">][</span><span class="s2">columns</span><span class="s1">]</span><span class="s2">int8</span>
+<span class="s0">type </span><span class="s2">SudokuError </span><span class="s1">[]</span><span class="s2">error</span>
+
+<span class="s5">// Error 方法返回一个或多个以逗号分隔的错误</span>
+<span class="s0">func </span><span class="s1">(</span><span class="s2">se SudokuError</span><span class="s1">) </span><span class="s2">Error</span><span class="s1">() </span><span class="s2">string </span><span class="s1">{</span>
+	<span class="s0">var </span><span class="s2">s </span><span class="s1">[]</span><span class="s2">string</span>
+	<span class="s0">for </span><span class="s2">_</span><span class="s0">, </span><span class="s2">err </span><span class="s1">:= </span><span class="s0">range </span><span class="s2">se </span><span class="s1">{</span>
+		<span class="s2">s </span><span class="s1">= </span><span class="s2">append</span><span class="s1">(</span><span class="s2">s</span><span class="s0">, </span><span class="s2">err</span><span class="s1">.</span><span class="s2">Error</span><span class="s1">())</span>
+		<span class="s5">// 只有使用了Error方法,err中的内容才会变成字符串,</span>
+	<span class="s1">}</span>
+	<span class="s0">return </span><span class="s2">strings</span><span class="s1">.</span><span class="s2">Join</span><span class="s1">(</span><span class="s2">s</span><span class="s0">, </span><span class="s3">&quot;, &quot;</span><span class="s1">)</span>
+<span class="s1">}</span>
+
+<span class="s0">func </span><span class="s2">validDigit</span><span class="s1">(</span><span class="s2">digit int8</span><span class="s1">) </span><span class="s2">bool </span><span class="s1">{</span>
+	<span class="s0">return </span><span class="s2">digit </span><span class="s1">&gt;= </span><span class="s4">1 </span><span class="s1">&amp;&amp; </span><span class="s2">digit </span><span class="s1">&lt;= </span><span class="s4">9</span>
+<span class="s1">}</span>
+
+<span class="s0">func </span><span class="s2">inBounds</span><span class="s1">(</span><span class="s2">row</span><span class="s0">, </span><span class="s2">column int</span><span class="s1">) </span><span class="s2">bool </span><span class="s1">{</span>
+	<span class="s0">if </span><span class="s2">row </span><span class="s1">&lt; </span><span class="s4">0 </span><span class="s1">|| </span><span class="s2">row </span><span class="s1">&gt;= </span><span class="s2">rows </span><span class="s1">{</span>
+		<span class="s0">return </span><span class="s2">false</span>
+	<span class="s1">}</span>
+	<span class="s0">if </span><span class="s2">column </span><span class="s1">&lt; </span><span class="s4">0 </span><span class="s1">|| </span><span class="s2">column </span><span class="s1">&gt;= </span><span class="s2">columns </span><span class="s1">{</span>
+		<span class="s0">return </span><span class="s2">false</span>
+	<span class="s1">}</span>
+	<span class="s0">return </span><span class="s2">true</span>
+<span class="s1">}</span>
+<span class="s0">func </span><span class="s1">(</span><span class="s2">g </span><span class="s1">*</span><span class="s2">Grid</span><span class="s1">) </span><span class="s2">Set</span><span class="s1">(</span><span class="s2">row</span><span class="s0">, </span><span class="s2">column int</span><span class="s0">, </span><span class="s2">digit int8</span><span class="s1">) </span><span class="s2">error </span><span class="s1">{</span>
+	<span class="s0">var </span><span class="s2">errs SudokuError</span>
+	<span class="s0">if </span><span class="s1">!</span><span class="s2">inBounds</span><span class="s1">(</span><span class="s2">row</span><span class="s0">, </span><span class="s2">column</span><span class="s1">) {</span>
+		<span class="s2">errs </span><span class="s1">= </span><span class="s2">append</span><span class="s1">(</span><span class="s2">errs</span><span class="s0">, </span><span class="s2">ErrBounds</span><span class="s1">)</span>
+	<span class="s1">}</span>
+	<span class="s0">if </span><span class="s1">!</span><span class="s2">validDigit</span><span class="s1">(</span><span class="s2">digit</span><span class="s1">) {</span>
+		<span class="s2">errs </span><span class="s1">= </span><span class="s2">append</span><span class="s1">(</span><span class="s2">errs</span><span class="s0">, </span><span class="s2">ErrDigit</span><span class="s1">)</span>
+	<span class="s1">}</span>
+	<span class="s0">if </span><span class="s2">len</span><span class="s1">(</span><span class="s2">errs</span><span class="s1">) &gt; </span><span class="s4">0 </span><span class="s1">{</span>
+		<span class="s0">return </span><span class="s2">errs</span>
+		<span class="s5">// 只要一个类型具有Error方法，它就能被当做error返回</span>
+	<span class="s1">}</span>
+	<span class="s2">g</span><span class="s1">[</span><span class="s2">row</span><span class="s1">][</span><span class="s2">column</span><span class="s1">] = </span><span class="s2">digit</span>
+	<span class="s0">return </span><span class="s2">nil</span>
+<span class="s1">}</span>
+
+<span class="s0">func </span><span class="s2">main</span><span class="s1">() {</span>
+	<span class="s0">var </span><span class="s2">g Grid</span>
+	<span class="s2">err </span><span class="s1">:= </span><span class="s2">g</span><span class="s1">.</span><span class="s2">Set</span><span class="s1">(</span><span class="s4">10</span><span class="s0">, </span><span class="s4">0</span><span class="s0">, </span><span class="s4">10</span><span class="s1">)</span>
+	<span class="s0">if </span><span class="s2">err </span><span class="s1">!= </span><span class="s2">nil </span><span class="s1">{</span>
+		<span class="s2">fmt</span><span class="s1">.</span><span class="s2">Println</span><span class="s1">(</span><span class="s2">err</span><span class="s1">)</span>
+	<span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
