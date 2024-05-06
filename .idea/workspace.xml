@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "matrix-ops"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;matrix-ops&quot;
   }
-}]]></component>
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -44,12 +42,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/matrix-ops/LearningGo.git",
-    "accountId": "f3ffe05c-3a09-4cdb-83ef-767ab0972721"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/matrix-ops/LearningGo.git&quot;,
+    &quot;accountId&quot;: &quot;f3ffe05c-3a09-4cdb-83ef-767ab0972721&quot;
   }
-}]]></component>
+}</component>
   <component name="GoDepProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -74,72 +72,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go 构建.go build 17.5-terraform.go.executor": "Run",
-    "Go 构建.go build error接口测试2.go.executor": "Run",
-    "Go 构建.go build json_test1.go.executor": "Run",
-    "Go 构建.go build pointer.go.executor": "Run",
-    "Go 构建.go build structTest.go.executor": "Run",
-    "Go 构建.go build switch.go.executor": "Run",
-    "Go 构建.go build switch2.go.executor": "Run",
-    "Go 构建.go build switch语句fallthrough语句的作用.go.executor": "Run",
-    "Go 构建.go build tmp-23.go.executor": "Run",
-    "Go 构建.go build tmp-24-指针测试.go.executor": "Run",
-    "Go 构建.go build tmp-24.go.executor": "Run",
-    "Go 构建.go build tmp.go.executor": "Run",
-    "Go 构建.go build tmp100.go.executor": "Run",
-    "Go 构建.go build tmp101-goroutine.go.executor": "Run",
-    "Go 构建.go build tmp102-goroutine.go.executor": "Run",
-    "Go 构建.go build tmp103-地鼠装配流水线.go.executor": "Run",
-    "Go 构建.go build tmp104-select语句.go.executor": "Run",
-    "Go 构建.go build tmp105-select语句.go.executor": "Run",
-    "Go 构建.go build tmp107.go'.go.executor": "Run",
-    "Go 构建.go build tmp15-nil指针.go.executor": "Run",
-    "Go 构建.go build tmp18-sortSlice.go.executor": "Run",
-    "Go 构建.go build tmp19-nil可以当成空切片来使用.go.executor": "Run",
-    "Go 构建.go build tmp2-接口.go.executor": "Run",
-    "Go 构建.go build tmp20-当需要用nil来表示没有值的情况.md.go.executor": "Run",
-    "Go 构建.go build tmp21-io-Readdir.go.executor": "Run",
-    "Go 构建.go build tmp22-goroutine启动.go.executor": "Run",
-    "Go 构建.go build tmp25-类型断言.go.executor": "Run",
-    "Go 构建.go build tmp25.go.executor": "Run",
-    "Go 构建.go build tmp26.go.executor": "Run",
-    "Go 构建.go build tmp27.go.executor": "Run",
-    "Go 构建.go build tmp28.go.executor": "Run",
-    "Go 构建.go build tmp29.go.executor": "Run",
-    "Go 构建.go build tmp32-在goroutine中使用互斥锁.go.executor": "Run",
-    "Go 构建.go build tmp35-chan-struct{}是什么.go.executor": "Run",
-    "Go 构建.go build tmp35-在函数内部访问全局变量.go.executor": "Run",
-    "Go 构建.go build tmp37-方法使用指针作为接收者的时候.go.executor": "Run",
-    "Go 构建.go build 指向数组的指针.go.executor": "Run",
-    "Go 构建.go build 指向结构的指针.go.executor": "Run",
-    "Go 构建.go build 测试如果map超出容量会发生什么.go.executor": "Run",
-    "Go 构建.go build 测试如果切片超出容量限制会发生什么.go.executor": "Run",
-    "Go 构建.go build 闭包2.go.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.vendoring.notification.had.been.shown": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/zhangweilong",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go 构建.go build 17.5-terraform.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build error接口测试2.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build json_test1.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build pointer.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build structTest.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build switch.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build switch2.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build switch语句fallthrough语句的作用.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp-23.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp-24-指针测试.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp-24.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp100.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp101-goroutine.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp102-goroutine.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp103-地鼠装配流水线.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp104-select语句.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp105-select语句.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp107.go'.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp15-nil指针.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp18-sortSlice.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp19-nil可以当成空切片来使用.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp2-接口.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp20-当需要用nil来表示没有值的情况.md.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp21-io-Readdir.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp22-goroutine启动.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp25-类型断言.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp25.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp26.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp27.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp28.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp29.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp32-在goroutine中使用互斥锁.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp35-chan-struct{}是什么.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp35-在函数内部访问全局变量.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp37-方法使用指针作为接收者的时候.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build 指向数组的指针.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build 指向结构的指针.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build 测试如果map超出容量会发生什么.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build 测试如果切片超出容量限制会发生什么.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build 闭包2.go.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.vendoring.notification.had.been.shown&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zhangweilong&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
@@ -232,6 +230,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="默认更改列表" />
