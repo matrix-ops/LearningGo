@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tmp37-方法使用指针作为接收者的时候.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/tmp37-方法使用指针作为接收者的时候.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tmp38-当函数和方法返回一个指针的时候.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/tmp38-当函数和方法返回一个指针的时候.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/matrix-ops/LearningGo.git&quot;,
+    &quot;url&quot;: &quot;git@github.com:matrix-ops/LearningGo.git&quot;,
     &quot;accountId&quot;: &quot;f3ffe05c-3a09-4cdb-83ef-767ab0972721&quot;
   }
 }</component>
@@ -67,7 +69,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="21mcwmkIk5VkUDcSILoVI388wNA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -111,6 +115,7 @@
     &quot;Go 构建.go build tmp35-chan-struct{}是什么.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp35-在函数内部访问全局变量.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp37-方法使用指针作为接收者的时候.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp38-当函数和方法返回一个指针的时候.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 指向数组的指针.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 指向结构的指针.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 测试如果map超出容量会发生什么.go.executor&quot;: &quot;Run&quot;,
@@ -134,7 +139,7 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -149,7 +154,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build tmp21-io-Readdir.go">
+  <component name="RunManager" selected="Go 构建.go build tmp38-当函数和方法返回一个指针的时候.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -167,14 +172,6 @@
       <filePath value="$PROJECT_DIR$/tmp/tmp103-地鼠装配流水线.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp105-select语句.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/tmp105-select语句.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build tmp107.go'.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -183,7 +180,7 @@
       <filePath value="$PROJECT_DIR$/tmp/tmp107.go'.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp21-io-Readdir.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp21-io-Readdir.go" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
@@ -199,6 +196,14 @@
       <filePath value="$PROJECT_DIR$/tmp/tmp37-方法使用指针作为接收者的时候.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build tmp38-当函数和方法返回一个指针的时候.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tmp/tmp38-当函数和方法返回一个指针的时候.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -209,13 +214,20 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go 构建.go build tmp103-地鼠装配流水线.go" />
+      <item itemvalue="Go 构建.go build tmp107.go'.go" />
+      <item itemvalue="Go 构建.go build tmp21-io-Readdir.go" />
+      <item itemvalue="Go 构建.go build tmp37-方法使用指针作为接收者的时候.go" />
+      <item itemvalue="Go 构建.go build tmp38-当函数和方法返回一个指针的时候.go" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build tmp38-当函数和方法返回一个指针的时候.go" />
         <item itemvalue="Go 构建.go build tmp21-io-Readdir.go" />
         <item itemvalue="Go 构建.go build tmp37-方法使用指针作为接收者的时候.go" />
         <item itemvalue="Go 构建.go build tmp103-地鼠装配流水线.go" />
         <item itemvalue="Go 构建.go build tmp107.go'.go" />
-        <item itemvalue="Go 构建.go build tmp105-select语句.go" />
       </list>
     </recent_temporary>
   </component>
