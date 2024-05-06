@@ -10,6 +10,7 @@ type Person37 struct {
 func (p *Person37) birthday() {
 	p.age++
 	// 这里不用解引用是因为Go语言会自动对结构体指针做解引用
+	// 等效于(*p).age++
 }
 
 type address string
@@ -32,5 +33,5 @@ func main() {
 	a1.printAddress()
 }
 
-// 结构体指针作为接收者的时候，值也可以直接调用birthday方法
-// 字符串指针作为接收者的时候，字符串值也可以直接调用printAddress方法
+// 在方法签名中，定义结构体指针作为接收者的时候，值也可以直接调用birthday方法
+// 在方法签名中，定义字符串指针作为接收者的时候，字符串值也可以直接调用printAddress方法
