@@ -1,12 +1,16 @@
 package main
 
-import "flag"
+import (
+	"flag"
+	"fmt"
+)
 
 var (
 	httpPort = flag.Int("httpPort", 8080, "http port")
-	help     = flag.Bool("help", false, "show help")
+	url      = flag.String("url", "google", "www.google.com")
 )
 
 func main() {
 	flag.Parse()
+	fmt.Println(*url)
 }
