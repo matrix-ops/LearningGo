@@ -9,6 +9,7 @@ type person struct {
 
 func birthdays(p *person) {
 	p.age++
+	// 这里不用写成（*p).age++，因为go语言会自动解引用
 }
 
 func main() {

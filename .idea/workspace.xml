@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义-2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/tmp29-直接用索引操作字符串会发生什么.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/tmp29-直接用索引操作字符串会发生什么.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tmp11-函数修改指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/tmp11-函数修改指针.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
