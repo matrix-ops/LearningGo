@@ -8,6 +8,7 @@ import (
 func PrintlnNumbers(numbers ...int) []int {
 	fmt.Println(reflect.TypeOf(numbers))
 	// 打印传参的类型，在这个例子中，PrintNumbers函数的传参会被存储为一个int切片
+	// 可变参数会被存储到一个切片里面
 	newNumbers := make([]int, len(numbers))
 	// 初始化一个int切片，长度为传参的个数
 	for i := range numbers {
@@ -23,4 +24,5 @@ func PrintlnNumbers(numbers ...int) []int {
 func main() {
 	slice1 := []int{1, 2, 3, 4, 5, 6}
 	fmt.Println(PrintlnNumbers(slice1...))
+	// 101, 102, 103..
 }

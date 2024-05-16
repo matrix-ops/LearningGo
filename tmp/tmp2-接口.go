@@ -11,6 +11,7 @@ type talker interface {
 
 func (t talker) talkShout(s string) {
 	t.talk()
+	// 错误的，接口自身不可以有方法
 }
 
 type laser int
@@ -29,4 +30,5 @@ func main() {
 	// hahaha
 	var s talker = l
 	s.talk()
+	// son of bitch
 }

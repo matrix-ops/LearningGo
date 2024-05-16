@@ -10,7 +10,7 @@ func parameter_add(prefix string, worlds ...string) {
 	fmt.Println(reflect.TypeOf(worlds))
 	// []string
 	for _, i := range worlds {
-		fmt.Println(prefix + "" + i)
+		fmt.Println(prefix + " " + i)
 	}
 }
 

@@ -21,5 +21,7 @@ func main() {
 	// 上面的情况下，address将被自动初始化为一个int类型的指针
 	// 值为answer的内存地址
 	fmt.Println(reflect.TypeOf(address))
+	// *int
 	printAddress(address)
+	//
 }
