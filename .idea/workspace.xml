@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/tmp/tmp40-new函数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp40-元素为指针的数组.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp2-结构体切片.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goinaction/code-master/chapter2/sample/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/goinaction/code-master/chapter2/sample/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goinaction/code-master/chapter2/sample/search/feed.go" beforeDir="false" afterPath="$PROJECT_DIR$/goinaction/code-master/chapter2/sample/search/feed.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goinaction/code-master/chapter2/sample/search/search.go" beforeDir="false" afterPath="$PROJECT_DIR$/goinaction/code-master/chapter2/sample/search/search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义-2.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义-2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/指向数组的指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/指向数组的指针.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;git@github.com:matrix-ops/LearningGo.git&quot;,
-    &quot;accountId&quot;: &quot;f3ffe05c-3a09-4cdb-83ef-767ab0972721&quot;
+    &quot;accountId&quot;: &quot;08ec115c-6f59-41e9-bd7f-5789a183fe98&quot;
   }
 }</component>
   <component name="GoDepProject">
@@ -62,8 +61,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/tmp/tmp102-goroutine.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/goinaction/code@v0.0.0-20171020164608-49fc99e6affb/chapter2/sample/search/feed.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/go/pkg/mod/github.com/goinaction/code@v0.0.0-20171020164608-49fc99e6affb/chapter2/sample/search/search.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/sdk/go1.22.1/src/math/const.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -110,6 +109,7 @@
     "Go 构建.go build tmp18-sortSlice.go.executor": "Run",
     "Go 构建.go build tmp19-nil可以当成空切片来使用.go.executor": "Run",
     "Go 构建.go build tmp2-接口.go.executor": "Run",
+    "Go 构建.go build tmp2-结构体切片.go.executor": "Run",
     "Go 构建.go build tmp20-当需要用nil来表示没有值的情况.md.go.executor": "Run",
     "Go 构建.go build tmp21-io-Readdir.go.executor": "Run",
     "Go 构建.go build tmp22-goroutine启动.go.executor": "Run",
@@ -128,6 +128,8 @@
     "Go 构建.go build tmp37-方法使用指针作为接收者的时候.go.executor": "Run",
     "Go 构建.go build tmp38-当函数和方法返回一个指针的时候.go.executor": "Run",
     "Go 构建.go build tmp4-切片和map.go.executor": "Run",
+    "Go 构建.go build tmp40-new函数.go.executor": "Run",
+    "Go 构建.go build tmp40-元素为指针的数组.go.executor": "Run",
     "Go 构建.go build 指向数组的指针.go.executor": "Run",
     "Go 构建.go build 指向结构的指针.go.executor": "Run",
     "Go 构建.go build 测试如果map超出容量会发生什么.go.executor": "Run",
@@ -147,7 +149,7 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/zhang",
+    "last_opened_file_path": "C:/Users/zhang/go/src/code-master",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -167,7 +169,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go">
+  <component name="RunManager" selected="Go 构建.go build 指向数组的指针.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -175,6 +177,14 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 指向数组的指针.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tmp/指向数组的指针.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -185,36 +195,28 @@
       <filePath value="$PROJECT_DIR$/goinaction/code-master/chapter2/sample/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp1-一个变量要整个包都能访问应该如何定义-2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp2-结构体切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义-2.go" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/tmp2-结构体切片.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp1-一个变量要整个包都能访问应该如何定义.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp40-元素为指针的数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义.go" />
+      <filePath value="$PROJECT_DIR$/tmp/tmp40-元素为指针的数组.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp4-切片和map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp40-new函数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/tmp4-切片和map.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build tmp5-指针.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/tmp5-指针.go" />
+      <filePath value="$PROJECT_DIR$/tmp/tmp40-new函数.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -228,19 +230,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go 构建.go build tmp2-结构体切片.go" />
+      <item itemvalue="Go 构建.go build tmp40-new函数.go" />
+      <item itemvalue="Go 构建.go build tmp40-元素为指针的数组.go" />
+      <item itemvalue="Go 构建.go build 指向数组的指针.go" />
       <item itemvalue="Go 构建.go build main.go" />
-      <item itemvalue="Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义-2.go" />
-      <item itemvalue="Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义.go" />
-      <item itemvalue="Go 构建.go build tmp5-指针.go" />
-      <item itemvalue="Go 构建.go build tmp4-切片和map.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 指向数组的指针.go" />
+        <item itemvalue="Go 构建.go build tmp40-元素为指针的数组.go" />
+        <item itemvalue="Go 构建.go build tmp40-new函数.go" />
+        <item itemvalue="Go 构建.go build tmp2-结构体切片.go" />
         <item itemvalue="Go 构建.go build main.go" />
-        <item itemvalue="Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义-2.go" />
-        <item itemvalue="Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义.go" />
-        <item itemvalue="Go 构建.go build tmp5-指针.go" />
-        <item itemvalue="Go 构建.go build tmp4-切片和map.go" />
       </list>
     </recent_temporary>
   </component>
