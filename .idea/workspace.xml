@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp3-声明数组和初始化数组.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp4-声明和初始化切片.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/tmp40-元素为指针的数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/tmp40-元素为指针的数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/切片、数组和Map/二维数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/二维数组.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/指向数组的指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/指向数组的指针.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/二维数组-数独.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/二维数组-数独.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/二维数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/二维数组.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数组、切片的长度和容量.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/数组、切片的长度和容量.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数组声明、切片声明.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/数组声明、切片声明.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,8 +128,10 @@
     "Go 构建.go build tmp37-方法使用指针作为接收者的时候.go.executor": "Run",
     "Go 构建.go build tmp38-当函数和方法返回一个指针的时候.go.executor": "Run",
     "Go 构建.go build tmp4-切片和map.go.executor": "Run",
+    "Go 构建.go build tmp4-声明和初始化切片.go.executor": "Run",
     "Go 构建.go build tmp40-new函数.go.executor": "Run",
     "Go 构建.go build tmp40-元素为指针的数组.go.executor": "Run",
+    "Go 构建.go build 二维数组.go.executor": "Run",
     "Go 构建.go build 指向数组的指针.go.executor": "Run",
     "Go 构建.go build 指向结构的指针.go.executor": "Run",
     "Go 构建.go build 测试如果map超出容量会发生什么.go.executor": "Run",
@@ -174,7 +172,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build tmp3-声明数组和初始化数组.go">
+  <component name="RunManager" selected="Go 构建.go build 二维数组.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -192,12 +190,12 @@
       <filePath value="$PROJECT_DIR$/tmp/指向数组的指针.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp2-结构体切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 二维数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/tmp2-结构体切片.go" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/二维数组.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build tmp3-声明数组和初始化数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -208,20 +206,20 @@
       <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/tmp3-声明数组和初始化数组.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build tmp4-声明和初始化切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/tmp4-声明和初始化切片.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build tmp40-元素为指针的数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/tmp/tmp40-元素为指针的数组.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build tmp40-new函数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/tmp40-new函数.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -236,18 +234,18 @@
     </configuration>
     <list>
       <item itemvalue="Go 构建.go build tmp3-声明数组和初始化数组.go" />
-      <item itemvalue="Go 构建.go build tmp2-结构体切片.go" />
-      <item itemvalue="Go 构建.go build tmp40-new函数.go" />
+      <item itemvalue="Go 构建.go build tmp4-声明和初始化切片.go" />
+      <item itemvalue="Go 构建.go build 二维数组.go" />
       <item itemvalue="Go 构建.go build tmp40-元素为指针的数组.go" />
       <item itemvalue="Go 构建.go build 指向数组的指针.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 二维数组.go" />
+        <item itemvalue="Go 构建.go build tmp4-声明和初始化切片.go" />
         <item itemvalue="Go 构建.go build tmp3-声明数组和初始化数组.go" />
         <item itemvalue="Go 构建.go build tmp40-元素为指针的数组.go" />
         <item itemvalue="Go 构建.go build 指向数组的指针.go" />
-        <item itemvalue="Go 构建.go build tmp40-new函数.go" />
-        <item itemvalue="Go 构建.go build tmp2-结构体切片.go" />
       </list>
     </recent_temporary>
   </component>
