@@ -38,9 +38,7 @@ func main() {
 	// 大于256的时候，新slice的容量近似于(oldcap+(oldcap+3*256)/4)的策略
 	// 之所以两者都说是近似，就是因为上面提到的内存对齐原则的存在，growslice函数在计算完新slice的容量之后，会使用
 	// roundupsize函数进行内存对齐一次
-
 	//
-
 	fmt.Println("s2的长度是：", len(s2), "s2的容量是：", cap(s2))
 	// 5, 6
 	s2 = append(s2, 6)
@@ -51,12 +49,10 @@ func main() {
 	fmt.Println(cap(s3))
 	s3 = append(s3, s1...)
 	fmt.Println("s3的长度是：", len(s3), "s3的容量是：", cap(s3))
-
 	s4 := make([]int, 6)
 	// make函数的第二个参数默认是长度，第三个参数才是切片的容量
 	s4 = append(s4, s1...)
 	fmt.Println("s4的长度是：", len(s4), "s4的容量是：", cap(s4))
-
 	s5 := make([]int, 7, 7)
 	s5 = append(s5, s1...)
 	fmt.Println("s5的长度是：", len(s5), "s5的容量是：", cap(s5))
