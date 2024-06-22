@@ -6,7 +6,9 @@ func main() {
 	var s []int
 	fmt.Println(s)
 	// []
-	s1 := make([]int, 10, 10)
+	fmt.Println("s的长度是：", len(s), "s的容量是:", cap(s))
+	// 0
+	s1 := make([]int, 10)
 	// 声明并初始化
 	fmt.Println(s1)
 	// [0 0 0 0 0 0 0 0 0 0]
