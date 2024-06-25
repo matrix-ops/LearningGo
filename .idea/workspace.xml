@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/string类型多少个字节.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp9-映射是无序的.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp12-二维切片.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp13-空切片和nil切片的区别.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/切片第一个元素的内存地址和unsafe.Pointer内存地址.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片2-循环中所使用的变量在不同Go版本之间的差别.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片3.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp3-声明数组和初始化数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp3-声明数组和初始化数组.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp4-声明和初始化切片.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp4-声明和初始化切片.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/切片、数组和Map/string类型多少个字节.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/string类型多少个字节.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp9-映射是无序的.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp9-映射是无序的.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/go/go1.22.1" />
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.11" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -84,6 +89,7 @@
     &quot;Go 构建.go build 1.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 17.5-terraform.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build error接口测试2.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build json.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build json_test1.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build main.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build modules&amp;&amp;package.1.go.executor&quot;: &quot;Run&quot;,
@@ -145,12 +151,16 @@
     &quot;Go 构建.go build tmp8-新切片的长度和容量最好设置成相同的.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp9-映射是无序的.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 二维数组.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 指向数组的指针.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 指向结构的指针.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 数组、切片的长度和容量.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 测试如果map超出容量会发生什么.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 测试如果切片超出容量限制会发生什么.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 生成器.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build 迭代切片.go.executor&quot;: &quot;Debug&quot;,
+    &quot;Go 构建.go build 迭代切片2.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build 迭代切片3.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 闭包2.go.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -170,7 +180,7 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -187,7 +197,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build tmp9-映射是无序的.go">
+  <component name="RunManager" selected="Go 构建.go build json.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -197,44 +207,44 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 生成器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 迭代切片2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/生成器.go" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build string类型多少个字节.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 迭代切片3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/string类型多少个字节.go" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片3.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp12-如何证明第二个切片所使用的是底层数组的元素.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 迭代切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/tmp12-如何证明第二个切片所使用的是底层数组的元素.go" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp4-声明和初始化切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/tmp4-声明和初始化切片.go" />
+      <filePath value="$PROJECT_DIR$/tmp/json.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp9-映射是无序的.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/tmp9-映射是无序的.go" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/切片第一个元素的内存地址和unsafe.Pointer内存地址.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -248,19 +258,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build string类型多少个字节.go" />
-      <item itemvalue="Go 构建.go build tmp9-映射是无序的.go" />
-      <item itemvalue="Go 构建.go build tmp4-声明和初始化切片.go" />
-      <item itemvalue="Go 构建.go build tmp12-如何证明第二个切片所使用的是底层数组的元素.go" />
-      <item itemvalue="Go 构建.go build 生成器.go" />
+      <item itemvalue="Go 构建.go build json.go" />
+      <item itemvalue="Go 构建.go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go" />
+      <item itemvalue="Go 构建.go build 迭代切片.go" />
+      <item itemvalue="Go 构建.go build 迭代切片2.go" />
+      <item itemvalue="Go 构建.go build 迭代切片3.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build tmp9-映射是无序的.go" />
-        <item itemvalue="Go 构建.go build string类型多少个字节.go" />
-        <item itemvalue="Go 构建.go build tmp4-声明和初始化切片.go" />
-        <item itemvalue="Go 构建.go build tmp12-如何证明第二个切片所使用的是底层数组的元素.go" />
-        <item itemvalue="Go 构建.go build 生成器.go" />
+        <item itemvalue="Go 构建.go build json.go" />
+        <item itemvalue="Go 构建.go build 迭代切片.go" />
+        <item itemvalue="Go 构建.go build 迭代切片3.go" />
+        <item itemvalue="Go 构建.go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go" />
+        <item itemvalue="Go 构建.go build 迭代切片2.go" />
       </list>
     </recent_temporary>
   </component>
