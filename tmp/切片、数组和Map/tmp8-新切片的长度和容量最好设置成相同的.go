@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// 如果新切片的长度和容量不一致，在持续对新切片执行append操作时，容易搞不清楚此次append操作是否会影响原有的底层数组
+	// 如果新切片的长度和容量不一致，在持续对新切片执行append操作时，容易搞不清楚此次append操作是否会影响原切片的底层数组
 	// 还是新建一个底层数组
 	// 因此，将新切片的长度和容量都设置相同是一个好习惯，这样可以确保新切片的第一个append操作就是新建了一个底层数组
 	s1 := []string{"Apple", "Orange", "Plum", "Banana", "Grape"}

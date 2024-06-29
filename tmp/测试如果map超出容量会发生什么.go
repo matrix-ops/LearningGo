@@ -12,5 +12,4 @@ func main() {
 	fmt.Println("三个元素的时候", len(m1))
 	fmt.Printf("%+v", m1)
 	// 结论是如果map初始化的时候给出的容量不够的话，后续新增的元素会自动扩容map
-	error
 }

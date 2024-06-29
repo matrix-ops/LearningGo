@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tmp/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp12-二维切片.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp13-空切片和nil切片的区别.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/切片第一个元素的内存地址和unsafe.Pointer内存地址.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片2-循环中所使用的变量在不同Go版本之间的差别.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2-方法也是一种特殊的函数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp10-append容量翻倍的逻辑.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp14-make初始化map并指定容量.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/指针/tmp1-指针可以通过隐式解引用调用值的方法.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/类型系统/tmp1-自定义类型和基础类型的值互相转换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/类型系统/tmp2-内嵌结构-匿名结构体.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/结构体/tmp1-嵌套结构体字面量.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/切片、数组和Map/string类型多少个字节.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/string类型多少个字节.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp9-映射是无序的.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp9-映射是无序的.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp7-新切片和旧切片共享相同的底层数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp7-新切片和旧切片共享相同的底层数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp8-新切片的长度和容量最好设置成相同的.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp8-新切片的长度和容量最好设置成相同的.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/测试如果map超出容量会发生什么.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/测试如果map超出容量会发生什么.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/切片-append.go" beforeDir="false" afterPath="$PROJECT_DIR$/切片-append.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.11" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -83,107 +86,119 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go 构建.go build 1.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 17.5-terraform.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build error接口测试2.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build json.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build json_test1.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build main.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build modules&amp;&amp;package.1.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build pointer.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build string类型多少个字节.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build structTest.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build switch.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build switch2.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build switch语句fallthrough语句的作用.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp-23.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp-24-指针测试.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp-24.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义-2.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp1-使用for循环直接遍历形参.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp1-当一个函数的返回值是一个通道.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp100.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp101-goroutine.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp102-goroutine.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp103-地鼠装配流水线.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp104-select语句.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp105-select语句.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp107.go'.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp12-如何证明第二个切片所使用的是底层数组的元素.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp15-nil指针.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp18-sortSlice.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp19-nil可以当成空切片来使用.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp2-接口.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp2-结构体切片.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp20-当需要用nil来表示没有值的情况.md.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp21-io-Readdir.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp22-goroutine启动.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp25-类型断言.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp25.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp26.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp27.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp28.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp29-直接用索引操作字符串会发生什么.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp29.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp3-切片和参数展开.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp3-声明数组和初始化数组.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp32-在goroutine中使用互斥锁.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp33-指针测试.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp35-chan-struct{}是什么.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp35-在函数内部访问全局变量.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp37-方法使用指针作为接收者的时候.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp38-当函数和方法返回一个指针的时候.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp4-切片和map.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp4-声明和初始化切片.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp40-new函数.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp40-元素为指针的数组.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp41-go语言中省略号的三个用法.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp42.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp5-空切片不等于nil切片.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp6-在切片上创建切片.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp7.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp8-对切片具体的某个索引执行取地址操作，得到的将是对应索引存储的值.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp8-新切片的长度和容量最好设置成相同的.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build tmp9-映射是无序的.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 二维数组.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 指向数组的指针.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 指向结构的指针.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 数组、切片的长度和容量.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 测试如果map超出容量会发生什么.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 测试如果切片超出容量限制会发生什么.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 生成器.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 迭代切片.go.executor&quot;: &quot;Debug&quot;,
-    &quot;Go 构建.go build 迭代切片2.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 迭代切片3.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build 闭包2.go.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.vendoring.notification.had.been.shown&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zhang&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go 构建.go build 1.go.executor": "Run",
+    "Go 构建.go build 17.5-terraform.go.executor": "Run",
+    "Go 构建.go build Learn.go.executor": "Run",
+    "Go 构建.go build demo.go.executor": "Run",
+    "Go 构建.go build error接口测试2.go.executor": "Run",
+    "Go 构建.go build json.go.executor": "Run",
+    "Go 构建.go build json_test1.go.executor": "Run",
+    "Go 构建.go build main.go.executor": "Run",
+    "Go 构建.go build modules&&package.1.go.executor": "Run",
+    "Go 构建.go build pointer.go.executor": "Run",
+    "Go 构建.go build string类型多少个字节.go.executor": "Run",
+    "Go 构建.go build structTest.go.executor": "Run",
+    "Go 构建.go build switch.go.executor": "Run",
+    "Go 构建.go build switch2.go.executor": "Run",
+    "Go 构建.go build switch语句fallthrough语句的作用.go.executor": "Run",
+    "Go 构建.go build tmp-23.go.executor": "Run",
+    "Go 构建.go build tmp-24-指针测试.go.executor": "Run",
+    "Go 构建.go build tmp-24.go.executor": "Run",
+    "Go 构建.go build tmp.go.executor": "Run",
+    "Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义-2.go.executor": "Run",
+    "Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义.go.executor": "Run",
+    "Go 构建.go build tmp1-使用for循环直接遍历形参.go.executor": "Run",
+    "Go 构建.go build tmp1-嵌套结构体字面量.go.executor": "Run",
+    "Go 构建.go build tmp1-当一个函数的返回值是一个通道.go.executor": "Run",
+    "Go 构建.go build tmp1-指针可以通过隐式解引用调用值的方法.go.executor": "Run",
+    "Go 构建.go build tmp1-自定义类型和基础类型的值互相转换.go.executor": "Run",
+    "Go 构建.go build tmp10-append容量翻倍的逻辑.go.executor": "Run",
+    "Go 构建.go build tmp100.go.executor": "Run",
+    "Go 构建.go build tmp101-goroutine.go.executor": "Run",
+    "Go 构建.go build tmp102-goroutine.go.executor": "Run",
+    "Go 构建.go build tmp103-地鼠装配流水线.go.executor": "Run",
+    "Go 构建.go build tmp104-select语句.go.executor": "Run",
+    "Go 构建.go build tmp105-select语句.go.executor": "Run",
+    "Go 构建.go build tmp107.go'.go.executor": "Run",
+    "Go 构建.go build tmp12-如何证明第二个切片所使用的是底层数组的元素.go.executor": "Run",
+    "Go 构建.go build tmp14-make初始化map并指定容量.go.executor": "Run",
+    "Go 构建.go build tmp15-nil指针.go.executor": "Run",
+    "Go 构建.go build tmp18-sortSlice.go.executor": "Run",
+    "Go 构建.go build tmp19-nil可以当成空切片来使用.go.executor": "Run",
+    "Go 构建.go build tmp2-内嵌结构-匿名结构体.go.executor": "Run",
+    "Go 构建.go build tmp2-内嵌结构.go.executor": "Run",
+    "Go 构建.go build tmp2-接口.go.executor": "Run",
+    "Go 构建.go build tmp2-方法也是一种特殊的函数.go.executor": "Run",
+    "Go 构建.go build tmp2-结构体切片.go.executor": "Run",
+    "Go 构建.go build tmp20-当需要用nil来表示没有值的情况.md.go.executor": "Run",
+    "Go 构建.go build tmp21-io-Readdir.go.executor": "Run",
+    "Go 构建.go build tmp22-goroutine启动.go.executor": "Run",
+    "Go 构建.go build tmp25-类型断言.go.executor": "Run",
+    "Go 构建.go build tmp25.go.executor": "Run",
+    "Go 构建.go build tmp26.go.executor": "Run",
+    "Go 构建.go build tmp27.go.executor": "Run",
+    "Go 构建.go build tmp28.go.executor": "Run",
+    "Go 构建.go build tmp29-直接用索引操作字符串会发生什么.go.executor": "Run",
+    "Go 构建.go build tmp29.go.executor": "Run",
+    "Go 构建.go build tmp3-切片和参数展开.go.executor": "Run",
+    "Go 构建.go build tmp3-声明数组和初始化数组.go.executor": "Run",
+    "Go 构建.go build tmp32-在goroutine中使用互斥锁.go.executor": "Run",
+    "Go 构建.go build tmp33-指针测试.go.executor": "Run",
+    "Go 构建.go build tmp35-chan-struct{}是什么.go.executor": "Run",
+    "Go 构建.go build tmp35-在函数内部访问全局变量.go.executor": "Run",
+    "Go 构建.go build tmp37-方法使用指针作为接收者的时候.go.executor": "Run",
+    "Go 构建.go build tmp38-当函数和方法返回一个指针的时候.go.executor": "Run",
+    "Go 构建.go build tmp4-切片和map.go.executor": "Run",
+    "Go 构建.go build tmp4-声明和初始化切片.go.executor": "Run",
+    "Go 构建.go build tmp40-new函数.go.executor": "Run",
+    "Go 构建.go build tmp40-元素为指针的数组.go.executor": "Run",
+    "Go 构建.go build tmp41-go语言中省略号的三个用法.go.executor": "Run",
+    "Go 构建.go build tmp42.go.executor": "Run",
+    "Go 构建.go build tmp5-空切片不等于nil切片.go.executor": "Run",
+    "Go 构建.go build tmp6-在切片上创建切片.go.executor": "Run",
+    "Go 构建.go build tmp7-新切片和旧切片共享相同的底层数组.go.executor": "Run",
+    "Go 构建.go build tmp7.go.executor": "Run",
+    "Go 构建.go build tmp8-对切片具体的某个索引执行取地址操作，得到的将是对应索引存储的值.go.executor": "Run",
+    "Go 构建.go build tmp8-新切片的长度和容量最好设置成相同的.go.executor": "Run",
+    "Go 构建.go build tmp9-映射是无序的.go.executor": "Run",
+    "Go 构建.go build 二维数组.go.executor": "Run",
+    "Go 构建.go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go.executor": "Run",
+    "Go 构建.go build 指向数组的指针.go.executor": "Run",
+    "Go 构建.go build 指向结构的指针.go.executor": "Run",
+    "Go 构建.go build 数组、切片的长度和容量.go.executor": "Run",
+    "Go 构建.go build 测试如果map超出容量会发生什么.go.executor": "Run",
+    "Go 构建.go build 测试如果切片超出容量限制会发生什么.go.executor": "Run",
+    "Go 构建.go build 生成器.go.executor": "Run",
+    "Go 构建.go build 迭代切片.go.executor": "Debug",
+    "Go 构建.go build 迭代切片2-循环中所使用的变量在不同Go版本之间的差别.go.executor": "Run",
+    "Go 构建.go build 迭代切片2.go.executor": "Run",
+    "Go 构建.go build 迭代切片3.go.executor": "Run",
+    "Go 构建.go build 闭包2.go.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.vendoring.notification.had.been.shown": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/zhang",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "go.sdk",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src\tmp\模块和包" />
@@ -197,7 +212,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build json.go">
+  <component name="RunManager" selected="Go 构建.go build demo.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -207,44 +222,44 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 迭代切片2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 迭代切片2-循环中所使用的变量在不同Go版本之间的差别.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片2.go" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片2-循环中所使用的变量在不同Go版本之间的差别.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 迭代切片3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片3.go" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/demo.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 迭代切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp1-嵌套结构体字面量.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/迭代切片.go" />
+      <filePath value="$PROJECT_DIR$/tmp/结构体/tmp1-嵌套结构体字面量.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp2-内嵌结构-匿名结构体.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/json.go" />
+      <filePath value="$PROJECT_DIR$/tmp/类型系统/tmp2-内嵌结构-匿名结构体.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp2-内嵌结构.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/切片第一个元素的内存地址和unsafe.Pointer内存地址.go" />
+      <filePath value="$PROJECT_DIR$/tmp/类型系统/tmp2-内嵌结构.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -258,19 +273,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build json.go" />
-      <item itemvalue="Go 构建.go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go" />
-      <item itemvalue="Go 构建.go build 迭代切片.go" />
-      <item itemvalue="Go 构建.go build 迭代切片2.go" />
-      <item itemvalue="Go 构建.go build 迭代切片3.go" />
+      <item itemvalue="Go 构建.go build demo.go" />
+      <item itemvalue="Go 构建.go build tmp2-内嵌结构-匿名结构体.go" />
+      <item itemvalue="Go 构建.go build tmp2-内嵌结构.go" />
+      <item itemvalue="Go 构建.go build 迭代切片2-循环中所使用的变量在不同Go版本之间的差别.go" />
+      <item itemvalue="Go 构建.go build tmp1-嵌套结构体字面量.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build json.go" />
-        <item itemvalue="Go 构建.go build 迭代切片.go" />
-        <item itemvalue="Go 构建.go build 迭代切片3.go" />
-        <item itemvalue="Go 构建.go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go" />
-        <item itemvalue="Go 构建.go build 迭代切片2.go" />
+        <item itemvalue="Go 构建.go build demo.go" />
+        <item itemvalue="Go 构建.go build 迭代切片2-循环中所使用的变量在不同Go版本之间的差别.go" />
+        <item itemvalue="Go 构建.go build tmp2-内嵌结构-匿名结构体.go" />
+        <item itemvalue="Go 构建.go build tmp1-嵌套结构体字面量.go" />
+        <item itemvalue="Go 构建.go build tmp2-内嵌结构.go" />
       </list>
     </recent_temporary>
   </component>
