@@ -10,6 +10,8 @@ type Person struct {
 }
 type Employee struct {
 	Person
+	// 此时Employee继承了Person内部所有字段
+	// 如果在Employee这一层声明同名的字段，例如name，外部的name字段会覆盖掉内部的name字段
 }
 
 func main() {
