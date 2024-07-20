@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/函数和方法/tmp1-函数的传参不能指针和值混用，但是方法可以.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp10-从map读取键值对并赋值给变量-if-ok写法.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp6-确认一个接口类型值的长度.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp7-接口定义方法的值接收者和指针接受者的区别.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/结构体/tmp2-如何访问其他包内的变量.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkPort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp2-当一个函数的返回值是一个通道.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp3-设置运行时的最大逻辑处理器数.md.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义-2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/模块和包/tmp1-一个变量要整个包都能访问应该如何定义.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/类型系统和接口/tmp2-内嵌结构-匿名结构体.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp2-内嵌结构-匿名结构体.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +19,7 @@
   <component name="ExportToHTMLSettings">
     <option name="printScope" value="1" />
     <option name="OPEN_IN_BROWSER" value="true" />
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,7 +28,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.windows-amd64" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,6 +63,10 @@
     <setting file="file://$PROJECT_DIR$/tmp/tmp102-goroutine.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/go/pkg/mod/github.com/goinaction/code@v0.0.0-20171020164608-49fc99e6affb/chapter2/sample/search/feed.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/go/pkg/mod/github.com/goinaction/code@v0.0.0-20171020164608-49fc99e6affb/chapter2/sample/search/search.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.windows-amd64/src/builtin/builtin.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.windows-amd64/src/io/io.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.windows-amd64/src/net/http/client.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.windows-amd64/src/net/http/request.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -90,6 +88,7 @@
     &quot;Go 构建.go build 1.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 17.5-terraform.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build Learn.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build checkPort.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build demo.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build error接口测试2.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build json.go.executor&quot;: &quot;Run&quot;,
@@ -130,6 +129,7 @@
     &quot;Go 构建.go build tmp2-内嵌结构-匿名结构体.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp2-内嵌结构.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp2-如何访问其他包内的变量.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp2-当一个函数的返回值是一个通道.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp2-接口.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp2-方法也是一种特殊的函数.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp2-结构体切片.go.executor&quot;: &quot;Run&quot;,
@@ -146,6 +146,7 @@
     &quot;Go 构建.go build tmp3-切片和参数展开.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp3-声明数组和初始化数组.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp3-设置运行时的最大逻辑处理器数.md.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp32-在goroutine中使用互斥锁.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp33-指针测试.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp35-chan-struct{}是什么.go.executor&quot;: &quot;Run&quot;,
@@ -196,11 +197,12 @@
     &quot;RunOnceActivity.go.vendoring.notification.had.been.shown&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zhang&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zhang/Desktop&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -221,7 +223,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build tmp2-如何访问其他包内的变量.go">
+  <component name="RunManager" selected="Go 构建.go build checkPort.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -231,12 +233,36 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build checkPort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/checkPort.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build tmp1-当一个函数的返回值是一个通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp1-当一个函数的返回值是一个通道.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build tmp2-如何访问其他包内的变量.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/tmp/结构体" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/tmp/结构体/tmp2-如何访问其他包内的变量.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build tmp2-当一个函数的返回值是一个通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp2-当一个函数的返回值是一个通道.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build tmp2-包内的变量如何定义成可以被别的包访问的形式.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -248,20 +274,12 @@
       <filePath value="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp6-确认一个接口类型值的长度.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp3-设置运行时的最大逻辑处理器数.md.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/tmp6-确认一个接口类型值的长度.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build tmp7-接口定义方法的值接收者和指针接受者的区别.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/tmp7-接口定义方法的值接收者和指针接受者的区别.go" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp3-设置运行时的最大逻辑处理器数.md.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -283,17 +301,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go 构建.go build checkPort.go" />
+      <item itemvalue="Go 构建.go build tmp1-当一个函数的返回值是一个通道.go" />
+      <item itemvalue="Go 构建.go build tmp3-设置运行时的最大逻辑处理器数.md.go" />
       <item itemvalue="Go 构建.go build tmp2-如何访问其他包内的变量.go" />
       <item itemvalue="Go 构建.go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
-      <item itemvalue="Go 构建.go build tmp6-确认一个接口类型值的长度.go" />
-      <item itemvalue="Go 构建.go build tmp7-接口定义方法的值接收者和指针接受者的区别.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build checkPort.go" />
+        <item itemvalue="Go 构建.go build tmp3-设置运行时的最大逻辑处理器数.md.go" />
+        <item itemvalue="Go 构建.go build tmp1-当一个函数的返回值是一个通道.go" />
         <item itemvalue="Go 构建.go build tmp2-如何访问其他包内的变量.go" />
         <item itemvalue="Go 构建.go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
-        <item itemvalue="Go 构建.go build tmp7-接口定义方法的值接收者和指针接受者的区别.go" />
-        <item itemvalue="Go 构建.go build tmp6-确认一个接口类型值的长度.go" />
       </list>
     </recent_temporary>
   </component>

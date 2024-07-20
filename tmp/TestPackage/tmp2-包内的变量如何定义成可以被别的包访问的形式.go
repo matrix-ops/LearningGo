@@ -1,3 +1,3 @@
-package testPackage
+package TestPackage
 
 var TestVar string = "You got it"
