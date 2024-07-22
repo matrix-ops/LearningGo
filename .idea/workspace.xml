@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/checkPort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp2-当一个函数的返回值是一个通道.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp3-设置运行时的最大逻辑处理器数.md.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp4-两个goroutine发生争用的情况.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkPort.go" beforeDir="false" afterPath="$PROJECT_DIR$/checkPort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +151,7 @@
     &quot;Go 构建.go build tmp35-在函数内部访问全局变量.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp37-方法使用指针作为接收者的时候.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp38-当函数和方法返回一个指针的时候.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp4-两个goroutine发生争用的情况.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp4-切片和map.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp4-声明和初始化切片.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp4-接口.go.executor&quot;: &quot;Run&quot;,
@@ -202,7 +201,7 @@
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zhang/Desktop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zhangweilong&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -223,7 +222,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build checkPort.go">
+  <component name="RunManager" selected="Go 构建.go build tmp4-两个goroutine发生争用的情况.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -282,12 +281,12 @@
       <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp3-设置运行时的最大逻辑处理器数.md.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp4-两个goroutine发生争用的情况.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp4-两个goroutine发生争用的情况.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -301,19 +300,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go 构建.go build tmp4-两个goroutine发生争用的情况.go" />
       <item itemvalue="Go 构建.go build checkPort.go" />
       <item itemvalue="Go 构建.go build tmp1-当一个函数的返回值是一个通道.go" />
       <item itemvalue="Go 构建.go build tmp3-设置运行时的最大逻辑处理器数.md.go" />
       <item itemvalue="Go 构建.go build tmp2-如何访问其他包内的变量.go" />
-      <item itemvalue="Go 构建.go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build tmp4-两个goroutine发生争用的情况.go" />
         <item itemvalue="Go 构建.go build checkPort.go" />
         <item itemvalue="Go 构建.go build tmp3-设置运行时的最大逻辑处理器数.md.go" />
         <item itemvalue="Go 构建.go build tmp1-当一个函数的返回值是一个通道.go" />
         <item itemvalue="Go 构建.go build tmp2-如何访问其他包内的变量.go" />
-        <item itemvalue="Go 构建.go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
       </list>
     </recent_temporary>
   </component>

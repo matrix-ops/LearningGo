@@ -52,13 +52,13 @@ func startKubectlPortForward() {
 	}
 }
 func main() {
-	statusCode, err := checkURLStatus("http://10.123.107.161/xxl-job-admin/")
+	statusCode, err := checkURLStatus("PUT_YOURURL_THERE")
 	if err != nil {
 		fmt.Println(err)
 		fmt.Println("Application Failed , Reason :", FailedReason)
 		startKubectlPortForward()
 	} else {
-		fmt.Println("Application Running.", statusCode)
+		fmt.Println("Application  Running.", statusCode)
 	}
 
 }
