@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp4-两个goroutine发生争用的情况.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp7-无缓冲的通道.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webhook.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkPort.go" beforeDir="false" afterPath="$PROJECT_DIR$/checkPort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.go" beforeDir="false" afterPath="$PROJECT_DIR$/1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.windows-amd64" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -162,17 +163,21 @@
     &quot;Go 构建.go build tmp43-在同一个文件内部定义多个init函数.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp44-Fprintf的用法.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp45-byte类型和byte切片.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp5-atomic.AddInt64.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp5-接口.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp5-空切片不等于nil切片.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp6-atomic.StoreInt64&amp;&amp;LoadInt64.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp6-在切片上创建切片.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp6-确认一个接口类型值的长度.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp7-接口定义方法的值接收者和指针接受者的区别.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp7-新切片和旧切片共享相同的底层数组.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build tmp7-无缓冲的通道.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp7.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp8-对切片具体的某个索引执行取地址操作，得到的将是对应索引存储的值.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp8-新切片的长度和容量最好设置成相同的.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build tmp9-映射是无序的.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build webhook.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 二维数组.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build 指向数组的指针.go.executor&quot;: &quot;Run&quot;,
@@ -201,7 +206,7 @@
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhangweilong&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zhang&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -222,7 +227,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build tmp4-两个goroutine发生争用的情况.go">
+  <component name="RunManager" selected="Go 构建.go build 1.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -232,61 +237,44 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build checkPort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/checkPort.go" />
+      <filePath value="$PROJECT_DIR$/1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp1-当一个函数的返回值是一个通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp5-atomic.AddInt64.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp1-当一个函数的返回值是一个通道.go" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp5-atomic.AddInt64.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp2-如何访问其他包内的变量.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <working_directory value="$PROJECT_DIR$/tmp/结构体" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/结构体/tmp2-如何访问其他包内的变量.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build tmp2-当一个函数的返回值是一个通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp6-atomic.StoreInt64&amp;&amp;LoadInt64.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp2-当一个函数的返回值是一个通道.go" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp6-atomic.StoreInt64&amp;&amp;LoadInt64.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp2-包内的变量如何定义成可以被别的包访问的形式.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <working_directory value="$PROJECT_DIR$/tmp/TestPackage" />
-      <kind value="FILE" />
-      <package value="TestPackage" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build tmp3-设置运行时的最大逻辑处理器数.md.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp7-无缓冲的通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp3-设置运行时的最大逻辑处理器数.md.go" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp7-无缓冲的通道.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp4-两个goroutine发生争用的情况.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build webhook.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp4-两个goroutine发生争用的情况.go" />
+      <filePath value="$PROJECT_DIR$/webhook.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -300,19 +288,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build tmp4-两个goroutine发生争用的情况.go" />
-      <item itemvalue="Go 构建.go build checkPort.go" />
-      <item itemvalue="Go 构建.go build tmp1-当一个函数的返回值是一个通道.go" />
-      <item itemvalue="Go 构建.go build tmp3-设置运行时的最大逻辑处理器数.md.go" />
-      <item itemvalue="Go 构建.go build tmp2-如何访问其他包内的变量.go" />
+      <item itemvalue="Go 构建.go build 1.go" />
+      <item itemvalue="Go 构建.go build tmp5-atomic.AddInt64.go" />
+      <item itemvalue="Go 构建.go build tmp6-atomic.StoreInt64&amp;&amp;LoadInt64.go" />
+      <item itemvalue="Go 构建.go build tmp7-无缓冲的通道.go" />
+      <item itemvalue="Go 构建.go build webhook.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build tmp4-两个goroutine发生争用的情况.go" />
-        <item itemvalue="Go 构建.go build checkPort.go" />
-        <item itemvalue="Go 构建.go build tmp3-设置运行时的最大逻辑处理器数.md.go" />
-        <item itemvalue="Go 构建.go build tmp1-当一个函数的返回值是一个通道.go" />
-        <item itemvalue="Go 构建.go build tmp2-如何访问其他包内的变量.go" />
+        <item itemvalue="Go 构建.go build 1.go" />
+        <item itemvalue="Go 构建.go build webhook.go" />
+        <item itemvalue="Go 构建.go build tmp7-无缓冲的通道.go" />
+        <item itemvalue="Go 构建.go build tmp6-atomic.StoreInt64&amp;&amp;LoadInt64.go" />
+        <item itemvalue="Go 构建.go build tmp5-atomic.AddInt64.go" />
       </list>
     </recent_temporary>
   </component>

@@ -9,7 +9,7 @@ func showMemoryAddress(x *int) {
 	// 取地址操作符&可以取到一个变量的内存地址，那么这样在变量前面加取地址操作符，就可以当成指针的值来用
 	//
 	// 注意这里的x表示在这个函数内部它是一个指针，它的值是函数调用者传递进来的
-	// 因此在函数内部的x有自己的内存地址
+	// 在函数内部x自己就是一个变量，因此它自己就有一个内存地址
 
 	// 指针是一种变量，它的值是一个内存地址，至于是谁的内存地址，那是另外一回事
 	// 同时指针自己作为一个变量，也存在自己的内存地址
@@ -34,6 +34,7 @@ func main() {
 	slice1 := []string{"zhangweilong", "xiongmeiqi"}
 	// 初始化一个切片，长度为2，容量为2，元素类型为string
 	fmt.Println("slice1的值是: ", slice1, "slice1的长度是：", len(slice1), "slice1的容量是: ", cap(slice1))
+	// []string{"zhangweilong", "xiongmeiqi"}，2,2
 	slice1 = append(slice1, "zhangyujing")
 	fmt.Println("新增一个元素之后，slice1的长度和容量为：", len(slice1), cap(slice1))
 	slice1 = append(slice1, "huangyuting")
