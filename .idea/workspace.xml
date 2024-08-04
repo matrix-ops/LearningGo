@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tmp/tmp121-变量隐式类型转换.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/tmp46-变量声明的作用域.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp8-网球.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp9-接力赛.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp47-随机数种子.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp10-带缓冲的通道.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp11-Mutex.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/通道和goroutine/tmp8-网球.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp8-网球.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +114,7 @@
     "Go 构建.go build tmp1-自定义类型和基础类型的值互相转换.go.executor": "Run",
     "Go 构建.go build tmp10-append容量翻倍的逻辑.go.executor": "Run",
     "Go 构建.go build tmp10-从map读取键值对并赋值给变量.go.executor": "Run",
+    "Go 构建.go build tmp10-带缓冲的通道.go.executor": "Run",
     "Go 构建.go build tmp100.go.executor": "Run",
     "Go 构建.go build tmp101-goroutine.go.executor": "Run",
     "Go 构建.go build tmp102-goroutine.go.executor": "Run",
@@ -121,6 +122,7 @@
     "Go 构建.go build tmp104-select语句.go.executor": "Run",
     "Go 构建.go build tmp105-select语句.go.executor": "Run",
     "Go 构建.go build tmp107.go'.go.executor": "Run",
+    "Go 构建.go build tmp11-Mutex.go.executor": "Run",
     "Go 构建.go build tmp12-如何证明第二个切片所使用的是底层数组的元素.go.executor": "Run",
     "Go 构建.go build tmp121-变量隐式类型转换.go.executor": "Run",
     "Go 构建.go build tmp14-make初始化map并指定容量.go.executor": "Run",
@@ -166,6 +168,7 @@
     "Go 构建.go build tmp44-Fprintf的用法.go.executor": "Run",
     "Go 构建.go build tmp45-byte类型和byte切片.go.executor": "Run",
     "Go 构建.go build tmp46-变量声明的作用域.go.executor": "Run",
+    "Go 构建.go build tmp47-随机数种子.go.executor": "Run",
     "Go 构建.go build tmp5-atomic.AddInt64.go.executor": "Run",
     "Go 构建.go build tmp5-接口.go.executor": "Run",
     "Go 构建.go build tmp5-空切片不等于nil切片.go.executor": "Run",
@@ -232,7 +235,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build tmp9-接力赛.go">
+  <component name="RunManager" selected="Go 构建.go build tmp11-Mutex.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -242,20 +245,20 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp1-当一个函数的返回值是一个通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp10-带缓冲的通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp1-当一个函数的返回值是一个通道.go" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp10-带缓冲的通道.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp121-变量隐式类型转换.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp11-Mutex.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/tmp121-变量隐式类型转换.go" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp11-Mutex.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build tmp46-变量声明的作用域.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -266,12 +269,12 @@
       <filePath value="$PROJECT_DIR$/tmp/tmp46-变量声明的作用域.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp8-网球.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp47-随机数种子.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp8-网球.go" />
+      <filePath value="$PROJECT_DIR$/tmp/tmp47-随机数种子.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build tmp9-接力赛.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -293,19 +296,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build tmp1-当一个函数的返回值是一个通道.go" />
+      <item itemvalue="Go 构建.go build tmp10-带缓冲的通道.go" />
+      <item itemvalue="Go 构建.go build tmp11-Mutex.go" />
       <item itemvalue="Go 构建.go build tmp46-变量声明的作用域.go" />
-      <item itemvalue="Go 构建.go build tmp8-网球.go" />
+      <item itemvalue="Go 构建.go build tmp47-随机数种子.go" />
       <item itemvalue="Go 构建.go build tmp9-接力赛.go" />
-      <item itemvalue="Go 构建.go build tmp121-变量隐式类型转换.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build tmp11-Mutex.go" />
+        <item itemvalue="Go 构建.go build tmp10-带缓冲的通道.go" />
+        <item itemvalue="Go 构建.go build tmp47-随机数种子.go" />
         <item itemvalue="Go 构建.go build tmp9-接力赛.go" />
         <item itemvalue="Go 构建.go build tmp46-变量声明的作用域.go" />
-        <item itemvalue="Go 构建.go build tmp8-网球.go" />
-        <item itemvalue="Go 构建.go build tmp1-当一个函数的返回值是一个通道.go" />
-        <item itemvalue="Go 构建.go build tmp121-变量隐式类型转换.go" />
       </list>
     </recent_temporary>
   </component>

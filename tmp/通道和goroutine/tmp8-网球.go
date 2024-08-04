@@ -11,6 +11,9 @@ var wg_8 sync.WaitGroup
 
 func init() {
 	rand.New(rand.NewSource(time.Now().UnixNano()))
+	// 由于时间每时每刻都在变化，这会让rand包内的函数每次在调用的时候都会使用不同的随机数种子，
+	// 这样才能生成不同的随机数序列
+	// 如果随机数种子是固定的，那么每次调用rand包内的函数所生成的随机数序列始终是固定的
 }
 func main() {
 	wg.Add(2)
