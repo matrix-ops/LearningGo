@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tmp/tmp47-随机数种子.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp10-带缓冲的通道.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp11-Mutex.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/通道和goroutine/tmp8-网球.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp8-网球.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/类型系统和接口/tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/类型系统和接口/tmp6-确认一个接口类型值的长度.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp6-确认一个接口类型值的长度.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/类型系统和接口/tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.windows-amd64" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -214,7 +213,7 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/zhang",
+    "last_opened_file_path": "/Users/zhangweilong",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -235,7 +234,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build tmp11-Mutex.go">
+  <component name="RunManager" selected="Go 构建.go build tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -261,28 +260,28 @@
       <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp11-Mutex.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp46-变量声明的作用域.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/tmp46-变量声明的作用域.go" />
+      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp47-随机数种子.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp7-接口定义方法的值接收者和指针接受者的区别.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/tmp47-随机数种子.go" />
+      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/tmp7-接口定义方法的值接收者和指针接受者的区别.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp9-接力赛.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp9-接力赛.go" />
+      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -296,19 +295,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go 构建.go build tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" />
+      <item itemvalue="Go 构建.go build tmp7-接口定义方法的值接收者和指针接受者的区别.go" />
+      <item itemvalue="Go 构建.go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
       <item itemvalue="Go 构建.go build tmp10-带缓冲的通道.go" />
       <item itemvalue="Go 构建.go build tmp11-Mutex.go" />
-      <item itemvalue="Go 构建.go build tmp46-变量声明的作用域.go" />
-      <item itemvalue="Go 构建.go build tmp47-随机数种子.go" />
-      <item itemvalue="Go 构建.go build tmp9-接力赛.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" />
+        <item itemvalue="Go 构建.go build tmp7-接口定义方法的值接收者和指针接受者的区别.go" />
+        <item itemvalue="Go 构建.go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
         <item itemvalue="Go 构建.go build tmp11-Mutex.go" />
         <item itemvalue="Go 构建.go build tmp10-带缓冲的通道.go" />
-        <item itemvalue="Go 构建.go build tmp47-随机数种子.go" />
-        <item itemvalue="Go 构建.go build tmp9-接力赛.go" />
-        <item itemvalue="Go 构建.go build tmp46-变量声明的作用域.go" />
       </list>
     </recent_temporary>
   </component>

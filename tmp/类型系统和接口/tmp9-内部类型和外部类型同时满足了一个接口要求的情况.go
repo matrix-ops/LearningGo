@@ -34,8 +34,8 @@ func main() {
 	}
 	ad.notify()
 	ad.user.notify()
-	sendNotifyEmail(&ad.user)
-	// 调用内部类型user
 	sendNotifyEmail(&ad)
 	// 调用外部类型admin
+	sendNotifyEmail(&ad.user)
+	// 调用内部类型user
 }
