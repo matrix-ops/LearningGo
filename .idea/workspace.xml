@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/benchMark-Taikoohui.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp-没有rand.New的rand.Intn函数会发生什么.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/wasm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp15-[]byte切片.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp10-接口和父接口.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/值接受者和指针接受者的方法互相通用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp12-接力赛2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/计数器counter.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/类型系统和接口/tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/类型系统和接口/tmp6-确认一个接口类型值的长度.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp6-确认一个接口类型值的长度.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/类型系统和接口/tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/mod/golang.org/x/text@v0.3.6/encoding/testdata/sunzi-bingfa-gb-levels-1-and-2-utf-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/mod/golang.org/x/text@v0.3.6/encoding/testdata/sunzi-bingfa-simplified-utf-8.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +94,7 @@
     "Go 构建.go build 1.go.executor": "Run",
     "Go 构建.go build 17.5-terraform.go.executor": "Run",
     "Go 构建.go build Learn.go.executor": "Run",
+    "Go 构建.go build benchMark-Taikoohui.go.executor": "Run",
     "Go 构建.go build checkPort.go.executor": "Run",
     "Go 构建.go build demo.go.executor": "Run",
     "Go 构建.go build error接口测试2.go.executor": "Run",
@@ -103,6 +111,7 @@
     "Go 构建.go build tmp-23.go.executor": "Run",
     "Go 构建.go build tmp-24-指针测试.go.executor": "Run",
     "Go 构建.go build tmp-24.go.executor": "Run",
+    "Go 构建.go build tmp-没有rand.New的rand.Intn函数会发生什么.go.executor": "Run",
     "Go 构建.go build tmp.go.executor": "Run",
     "Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义-2.go.executor": "Run",
     "Go 构建.go build tmp1-一个变量要整个包都能访问应该如何定义.go.executor": "Run",
@@ -123,8 +132,10 @@
     "Go 构建.go build tmp107.go'.go.executor": "Run",
     "Go 构建.go build tmp11-Mutex.go.executor": "Run",
     "Go 构建.go build tmp12-如何证明第二个切片所使用的是底层数组的元素.go.executor": "Run",
+    "Go 构建.go build tmp12-接力赛2.go.executor": "Run",
     "Go 构建.go build tmp121-变量隐式类型转换.go.executor": "Run",
     "Go 构建.go build tmp14-make初始化map并指定容量.go.executor": "Run",
+    "Go 构建.go build tmp15-[]byte切片.go.executor": "Run",
     "Go 构建.go build tmp15-nil指针.go.executor": "Run",
     "Go 构建.go build tmp18-sortSlice.go.executor": "Run",
     "Go 构建.go build tmp19-nil可以当成空切片来使用.go.executor": "Run",
@@ -186,6 +197,7 @@
     "Go 构建.go build tmp9-映射是无序的.go.executor": "Run",
     "Go 构建.go build webhook.go.executor": "Run",
     "Go 构建.go build 二维数组.go.executor": "Run",
+    "Go 构建.go build 值接受者和指针接受者的方法互相通用.go.executor": "Run",
     "Go 构建.go build 切片第一个元素的内存地址和unsafe.Pointer内存地址.go.executor": "Run",
     "Go 构建.go build 指向数组的指针.go.executor": "Run",
     "Go 构建.go build 指向结构的指针.go.executor": "Run",
@@ -234,7 +246,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go">
+  <component name="RunManager" selected="Go 构建.go build 值接受者和指针接受者的方法互相通用.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -244,44 +256,44 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp10-带缓冲的通道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 值接受者和指针接受者的方法互相通用.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp10-带缓冲的通道.go" />
+      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/值接受者和指针接受者的方法互相通用.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp11-Mutex.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp-没有rand.New的rand.Intn函数会发生什么.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp11-Mutex.go" />
+      <filePath value="$PROJECT_DIR$/tmp/tmp-没有rand.New的rand.Intn函数会发生什么.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp12-接力赛2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" />
+      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp12-接力赛2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp7-接口定义方法的值接收者和指针接受者的区别.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp15-[]byte切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/tmp7-接口定义方法的值接收者和指针接受者的区别.go" />
+      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/tmp15-[]byte切片.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build webhook.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
+      <filePath value="$PROJECT_DIR$/webhook.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -295,19 +307,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" />
-      <item itemvalue="Go 构建.go build tmp7-接口定义方法的值接收者和指针接受者的区别.go" />
-      <item itemvalue="Go 构建.go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
-      <item itemvalue="Go 构建.go build tmp10-带缓冲的通道.go" />
-      <item itemvalue="Go 构建.go build tmp11-Mutex.go" />
+      <item itemvalue="Go 构建.go build 值接受者和指针接受者的方法互相通用.go" />
+      <item itemvalue="Go 构建.go build tmp-没有rand.New的rand.Intn函数会发生什么.go" />
+      <item itemvalue="Go 构建.go build tmp12-接力赛2.go" />
+      <item itemvalue="Go 构建.go build tmp15-[]byte切片.go" />
+      <item itemvalue="Go 构建.go build webhook.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build tmp3-复制一个以指针形式嵌入了其他结构体的结构体会发生什么.go" />
-        <item itemvalue="Go 构建.go build tmp7-接口定义方法的值接收者和指针接受者的区别.go" />
-        <item itemvalue="Go 构建.go build tmp9-内部类型和外部类型同时满足了一个接口要求的情况.go" />
-        <item itemvalue="Go 构建.go build tmp11-Mutex.go" />
-        <item itemvalue="Go 构建.go build tmp10-带缓冲的通道.go" />
+        <item itemvalue="Go 构建.go build 值接受者和指针接受者的方法互相通用.go" />
+        <item itemvalue="Go 构建.go build tmp12-接力赛2.go" />
+        <item itemvalue="Go 构建.go build tmp-没有rand.New的rand.Intn函数会发生什么.go" />
+        <item itemvalue="Go 构建.go build webhook.go" />
+        <item itemvalue="Go 构建.go build tmp15-[]byte切片.go" />
       </list>
     </recent_temporary>
   </component>
