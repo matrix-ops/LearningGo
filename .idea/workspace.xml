@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/benchMark-Taikoohui.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/tmp-没有rand.New的rand.Intn函数会发生什么.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/wasm.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/切片、数组和Map/tmp15-[]byte切片.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/tmp10-接口和父接口.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/值接受者和指针接受者的方法互相通用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/tmp12-接力赛2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/通道和goroutine/计数器counter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/curl功能的代码.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/io.Copy函数的另外一个功能.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/自己实现一个满足io.Writer接口的类型.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实际在公司用过的/无感更新服务的时候压测receipt-app-demo接口.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/mod/golang.org/x/text@v0.3.6/encoding/testdata/sunzi-bingfa-gb-levels-1-and-2-utf-8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/mod/golang.org/x/text@v0.3.6/encoding/testdata/sunzi-bingfa-simplified-utf-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tmp21-io-Readdir.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/tmp21-io-Readdir.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/结构体/tmp2-如何访问其他包内的变量.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/结构体/tmp2-如何访问其他包内的变量.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.windows-amd64" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -96,8 +93,10 @@
     "Go 构建.go build Learn.go.executor": "Run",
     "Go 构建.go build benchMark-Taikoohui.go.executor": "Run",
     "Go 构建.go build checkPort.go.executor": "Run",
+    "Go 构建.go build curl功能的代码.go.executor": "Run",
     "Go 构建.go build demo.go.executor": "Run",
     "Go 构建.go build error接口测试2.go.executor": "Run",
+    "Go 构建.go build io.Copy函数的另外一个功能.go.executor": "Run",
     "Go 构建.go build json.go.executor": "Run",
     "Go 构建.go build json_test1.go.executor": "Run",
     "Go 构建.go build main.go.executor": "Run",
@@ -205,6 +204,7 @@
     "Go 构建.go build 测试如果map超出容量会发生什么.go.executor": "Run",
     "Go 构建.go build 测试如果切片超出容量限制会发生什么.go.executor": "Run",
     "Go 构建.go build 生成器.go.executor": "Run",
+    "Go 构建.go build 自己实现一个满足io.Writer接口的类型.go.executor": "Run",
     "Go 构建.go build 迭代切片.go.executor": "Debug",
     "Go 构建.go build 迭代切片2-循环中所使用的变量在不同Go版本之间的差别.go.executor": "Run",
     "Go 构建.go build 迭代切片2.go.executor": "Run",
@@ -225,7 +225,7 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/zhangweilong",
+    "last_opened_file_path": "C:/Users/zhang",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -246,7 +246,7 @@
       <recent name="C:\Users\zhang\Nutstore\1\我的坚果云\go\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 值接受者和指针接受者的方法互相通用.go">
+  <component name="RunManager" selected="Go 构建.go build 自己实现一个满足io.Writer接口的类型.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -264,36 +264,36 @@
       <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/值接受者和指针接受者的方法互相通用.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp-没有rand.New的rand.Intn函数会发生什么.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build curl功能的代码.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/tmp-没有rand.New的rand.Intn函数会发生什么.go" />
+      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/curl功能的代码.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp12-接力赛2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build io.Copy函数的另外一个功能.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/通道和goroutine/tmp12-接力赛2.go" />
+      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/io.Copy函数的另外一个功能.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tmp15-[]byte切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 自己实现一个满足io.Writer接口的类型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tmp/切片、数组和Map/tmp15-[]byte切片.go" />
+      <filePath value="$PROJECT_DIR$/tmp/类型系统和接口/自己实现一个满足io.Writer接口的类型.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build webhook.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tmp21-io-Readdir.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/webhook.go" />
+      <filePath value="$PROJECT_DIR$/tmp/tmp21-io-Readdir.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -307,19 +307,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go 构建.go build curl功能的代码.go" />
+      <item itemvalue="Go 构建.go build io.Copy函数的另外一个功能.go" />
+      <item itemvalue="Go 构建.go build tmp21-io-Readdir.go" />
       <item itemvalue="Go 构建.go build 值接受者和指针接受者的方法互相通用.go" />
-      <item itemvalue="Go 构建.go build tmp-没有rand.New的rand.Intn函数会发生什么.go" />
-      <item itemvalue="Go 构建.go build tmp12-接力赛2.go" />
-      <item itemvalue="Go 构建.go build tmp15-[]byte切片.go" />
-      <item itemvalue="Go 构建.go build webhook.go" />
+      <item itemvalue="Go 构建.go build 自己实现一个满足io.Writer接口的类型.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 自己实现一个满足io.Writer接口的类型.go" />
+        <item itemvalue="Go 构建.go build io.Copy函数的另外一个功能.go" />
+        <item itemvalue="Go 构建.go build curl功能的代码.go" />
+        <item itemvalue="Go 构建.go build tmp21-io-Readdir.go" />
         <item itemvalue="Go 构建.go build 值接受者和指针接受者的方法互相通用.go" />
-        <item itemvalue="Go 构建.go build tmp12-接力赛2.go" />
-        <item itemvalue="Go 构建.go build tmp-没有rand.New的rand.Intn函数会发生什么.go" />
-        <item itemvalue="Go 构建.go build webhook.go" />
-        <item itemvalue="Go 构建.go build tmp15-[]byte切片.go" />
       </list>
     </recent_temporary>
   </component>

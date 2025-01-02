@@ -11,7 +11,9 @@ func main() {
 		fmt.Println(err)
 		os.Exit(1)
 	}
-	for _, file := range files {
-		fmt.Println(file)
+	for i, file := range files {
+		// ReadDir返回的第一个参数是一个切片
+		// range遍历切片的时候第一个返回值是切片元素的索引
+		fmt.Println(i, file)
 	}
 }
