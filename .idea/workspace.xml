@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0147a0-8c9e-4bf3-919d-d5e69171c328" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/curl功能的代码.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/io.Copy函数的另外一个功能.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/类型系统和接口/自己实现一个满足io.Writer接口的类型.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/实际在公司用过的/无感更新服务的时候压测receipt-app-demo接口.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/TestPackage/tmp2-包内的变量如何定义成可以被别的包访问的形式.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/tmp21-io-Readdir.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/tmp21-io-Readdir.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/结构体/tmp2-如何访问其他包内的变量.go" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/结构体/tmp2-如何访问其他包内的变量.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +222,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "go.sdk",
+    "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
