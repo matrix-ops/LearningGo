@@ -14,10 +14,8 @@ var requestCounter uint64
 
 func sendRequest(wg *sync.WaitGroup, client *http.Client, reqNum uint64) {
 	defer wg.Done()
-
 	// 将请求编号添加为查询参数
-	url := fmt.Sprintf("https://openapi.dev.payeco.com/receipt-app-demo/demo/test/test?request_number=%d", reqNum)
-
+	url := fmt.Sprintf("https://openapi.payeco.com/receipt-app-demo/demo/test/test?request_number=%d", reqNum)
 	resp, err := client.Get(url)
 	if err != nil {
 		log.Printf("请求 #%d 出错: %v\n", reqNum, err)
@@ -44,8 +42,8 @@ func main() {
 	ticker := time.NewTicker(1 * time.Second)
 
 	for range ticker.C {
-		wg.Add(100)
-		for i := 0; i < 100; i++ {
+		wg.Add(50)
+		for i := 0; i < 50; i++ {
 			// 使用原子操作安全地递增请求计数器
 			reqNum := atomic.AddUint64(&requestCounter, 1)
 			go sendRequest(&wg, client, reqNum)
