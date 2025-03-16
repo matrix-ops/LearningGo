@@ -15,7 +15,7 @@ var requestCounter uint64
 func sendRequest(wg *sync.WaitGroup, client *http.Client, reqNum uint64) {
 	defer wg.Done()
 	// 将请求编号添加为查询参数
-	url := fmt.Sprintf("https://openapi.payeco.com/receipt-app-demo/demo/test/test?request_number=%d", reqNum)
+	url := fmt.Sprintf("https://openapi.xxxxxx.com/receipt-app-demo/demo/test/test?request_number=%d", reqNum)
 	resp, err := client.Get(url)
 	if err != nil {
 		log.Printf("请求 #%d 出错: %v\n", reqNum, err)
